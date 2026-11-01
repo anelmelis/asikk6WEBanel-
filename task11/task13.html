@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bouncing Ball</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+
+        #stage {
+            width: 600px;
+            height: 180px;
+            border: 2px solid #333;
+            position: relative;
+            overflow: hidden;
+            background-color: #f1f1f1;
+        }
+
+        #ball {
+            width: 60px;
+            height: 60px;
+            background-color: royalblue;
+            border-radius: 50%;
+            position: absolute;
+            left: 0;
+            bottom: 15px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-top: 15px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Task 11: Bouncing Ball</h1>
+
+    <p>Watch the ball move and bounce back!</p>
+
+    <div id="stage">
+        <div id="ball"></div>
+    </div>
+
+    <br>
+
+    <button id="startBtn">Start</button>
+    <button id="stopBtn">Stop</button>
+    <button id="resetBtn">Reset</button>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="task13.js"></script>
+
+</body>
+</html>

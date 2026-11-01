@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+
+        #gallery {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .photo {
+            width: 150px;
+            height: 120px;
+            object-fit: cover;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+
+        button {
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Image Gallery</h1>
+
+    <button id="showBtn">Show Gallery</button>
+    <button id="hideBtn">Hide Gallery</button>
+
+    <div id="gallery">
+
+        <img class="photo"
+        src="../task3/military cat.jpg"
+        alt="Mountain landscape">
+
+        <img class="photo"
+        src="../task6/carcarcar.jpg"
+        alt="Nature">
+
+        <img class="photo"
+        src="../task6/uyuy.jpg"
+        alt="Dog">
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="task12.js"></script>
+
+</body>
+</html>
