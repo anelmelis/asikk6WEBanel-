@@ -1,0 +1,222 @@
+/* =========================
+   GENERAL PAGE DESIGN
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(248, 241, 232);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #51445B;
+    margin: 0;
+    padding: 30px;
+    line-height: 1.6;
+}
+
+/* =========================
+   NAVIGATION BAR
+========================= */
+
+.navbar {
+    background-color: #E8E0F2;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 35px;
+    border-radius: 15px;
+    border: 1px solid #D5C8E8;
+    box-shadow: 0 4px 12px rgba(100, 80, 130, 0.08);
+}
+
+.navbar a {
+    color: #51445B;
+    text-decoration: none;
+    padding: 9px 15px;
+    background-color: #DCEBFA;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #C7B7E5;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* =========================
+   HEADINGS AND TEXT
+========================= */
+
+h1 {
+    color: #78659B;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #829CC5;
+    margin-top: 25px;
+}
+
+p {
+    color: #62566D;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+button {
+    background-color: #C7B7E5;
+    color: #FFFFFF;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 9px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #9D8BC5;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+/* =========================
+   INPUTS AND FORMS
+========================= */
+
+input {
+    padding: 11px;
+    border: 1px solid #C7B7E5;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    margin: 5px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #829CC5;
+    box-shadow: 0 0 5px #C7B7E5;
+}
+
+label {
+    color: #78659B;
+    font-weight: 600;
+}
+
+/* =========================
+   IMAGES
+========================= */
+
+img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+/* =========================
+   LISTS AND PANELS
+========================= */
+
+ul {
+    background-color: #E8E0F2;
+    padding: 20px 40px;
+    border-radius: 12px;
+    max-width: 400px;
+}
+
+li {
+    padding: 5px;
+}
+
+/* =========================
+   TASK 4 - SLIDE PANEL
+========================= */
+
+#panel {
+    background-color: #DCEBFA;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 500px;
+}
+
+/* =========================
+   TASK 8, 9, 10 - ANIMATIONS
+========================= */
+
+#box {
+    background-color: #9D8BC5;
+    border-radius: 12px;
+}
+
+/* =========================
+   TASK 11 - ACCORDION
+========================= */
+
+.accordion-header {
+    background-color: #A9C7E8;
+    color: #51445B;
+    border-radius: 10px;
+}
+
+.accordion-header:hover {
+    background-color: #C7B7E5;
+    color: white;
+}
+
+.accordion-content {
+    background-color: #E8E0F2;
+    border-radius: 10px;
+    color: #51445B;
+}
+
+/* =========================
+   TASK 11 - IMAGE GALLERY
+========================= */
+
+.photo {
+    border: 3px solid #DCD2F0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(100, 80, 130, 0.12);
+}
+
+/* =========================
+   TASK 11 - BOUNCING BALL
+========================= */
+
+#stage {
+    background-color: #E8E0F2;
+    border: 2px solid #C7B7E5;
+    border-radius: 15px;
+}
+
+#ball {
+    background-color: #829CC5;
+    box-shadow: 0 3px 10px rgba(100, 80, 130, 0.2);
+}
+
+/* =========================
+   LINKS
+========================= */
+
+a {
+    color: #829CC5;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #D5C8E8;
+    margin: 25px 0;
+}
